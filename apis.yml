@@ -1,7 +1,27 @@
 aid: camp
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/camp.png
 name: Camp
-description: Camp is a company surfaced as a portfolio company of bullpen-capital and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  CAMP is a family experience company operating immersive, rotating themed
+  retail-and-play venues ("The Family Experience Store") across eleven U.S.
+  markets — Atlanta, Boston, Charlotte, Chicago, Houston, Los Angeles, Miami,
+  Minneapolis, New York City, Philadelphia, and Washington D.C. It blends
+  hands-on crafts, counselor-led immersive activities, character meet-and-greets,
+  birthday parties, and a curated toy retail store both in-store and through its
+  online shop. CAMP is a venture-backed consumer brand (investors include Bullpen
+  Capital) and is tracked in the API Evangelist network as a company profile; it
+  does not currently publish a public developer platform, API, or SDK surface.
 url: https://raw.githubusercontent.com/api-evangelist/camp/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Retail
+- Family Entertainment
+- Experiential Retail
+- Kids
+- Ecommerce
+- Consumer
+- Toys
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +49,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.camp.com
+  url: https://camp.com
+- type: PrivacyPolicy
+  url: https://camp.com/privacy-policy
+- type: TermsOfService
+  url: https://camp.com/terms-of-service
+- type: Support
+  url: https://camp.com/help-center
+- type: DomainSecurity
+  url: security/camp-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
